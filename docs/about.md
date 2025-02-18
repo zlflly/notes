@@ -8,7 +8,7 @@ icon: /fontawesome/solid/face-smile-wink
 
 ## Some Tags
 
-- 上海交通大学密西根学院 2024 级本科生-test
+- 上海交通大学密西根学院 2024 级本科生-test01
 - INTJ (Maybe)
 - Interested in AI, Robot and ...
 
