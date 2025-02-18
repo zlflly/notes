@@ -163,7 +163,7 @@ extra:
       link: assets/images/qq.jpg
       name: QQ
     - icon: /fontawesome/brands/weixin
-      link: https://dinoai.oss-accelerate.aliyuncs.com/images/0194acb0-6247-7482-8659-30ee35c0e3f7/019519c0-4555-7e0b-8f12-4e72d012c3f8.jpeg
+      link: assets/images/wechat.jpg
       name: WeChat
     - icon: fontawesome/solid/paper-plane
       link: mailto:2158363941@qq.com
