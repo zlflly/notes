@@ -4,13 +4,13 @@ icon: /fontawesome/solid/face-smile-wink
 
 # About 🥳
 
-**Hello! How do you do? i'm zl**
+**Hello! How do you do? i'm Zl**
 
 ## Some Tags
 
 - 北京理工大学2024级徐特立学院本科生
 - ENFJ快乐小狗
-- 
+- 寻找专业ing
 - Interested in AI, Robot and ...
 - trying to use Heptabase
 
