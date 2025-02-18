@@ -4,13 +4,15 @@ icon: /fontawesome/solid/face-smile-wink
 
 # About 🥳
 
-**Welcome, I'm Wnc.**
+**Hello! How do you do?**
 
 ## Some Tags
 
 - 北京理工大学2024级徐特立学院本科生
-- ENFJ小狗
+- ENFJ快乐小狗
+- 
 - Interested in AI, Robot and ...
+- trying to use Heptabase
 
 > [!info]- Ways to befriend with me
 > You could find my email or qq or WeChat in the icon above.
