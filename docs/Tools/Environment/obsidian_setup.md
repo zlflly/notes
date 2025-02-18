@@ -162,12 +162,12 @@ mdate: 2024-12-22
 		tags:
 		  - " #日记 "
 		categories: dairy
-		date: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "
-		modify: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "
+		date: " {{ 'now' | date: "%Y-%m-%dT%H:%M:%S%z" }} "
+		modify: " {{ 'now' | date: "%Y-%m-%dT%H:%M:%S%z" }} "
 		dir: dairy
 		share: false
-		cdate: " {{ date:YYYY-MM-DD }} "
-		mdate: " {{ date:YYYY-MM-DD }} "
+		cdate: " {{ 'now' | date: "%Y-%m-%d" }} "
+		mdate: " {{ 'now' | date: "%Y-%m-%d" }} "
 		---
 
 		# {{date}}
@@ -217,12 +217,12 @@ mdate: 2024-12-22
 		tags:
 		  - " #周记 "
 		categories: dairy
-		date: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "
-		modify: " {{ date:YYYY-MM-DDTHH:mm:ss+08:00 }} "
+		date: " {{ 'now' | date: "%Y-%m-%dT%H:%M:%S%z" }} "
+		modify: " {{ 'now' | date: "%Y-%m-%dT%H:%M:%S%z" }} "
 		dir: dairy
 		share: false
-		cdate: " {{ date:YYYY-MM-DD }} "
-		mdate: " {{ date:YYYY-MM-DD }} "
+		cdate: " {{ 'now' | date: "%Y-%m-%d" }} "
+		mdate: " {{ 'now' | date: "%Y-%m-%d" }} "
 		---
 
 		# {{date:YYYY}} -W {{date:WW}} - {{date:MM}}
