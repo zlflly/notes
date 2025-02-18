@@ -151,22 +151,22 @@ extra:
     # - icon: fontawesome/brands/twitter
     #   link: https://twitter.com/
     - icon: /fontawesome/brands/github
-      link: https://github.com/WncFht
+      link: https://github.com/zlflly
       name: GitHub
     - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/496058922?spm_id_from=333.1007.0.0
+      link: https://space.bilibili.com/3546703389002196?spm_id_from=333.1387.0.0
       name: Bilibili
     - icon: /fontawesome/brands/zhihu
-      link: https://www.zhihu.com/people/fht-64
+      link: https://www.zhihu.com/people/ha-ha-ha-ha-ha-ha-38-72
       name: Zhihu
     - icon: /fontawesome/brands/qq
       link: assets/images/qq.jpg
       name: QQ
     - icon: /fontawesome/brands/weixin
-      link: assets/images/WeChat.jpg
+      link: https://dinoai.oss-accelerate.aliyuncs.com/images/0194acb0-6247-7482-8659-30ee35c0e3f7/019519c0-4555-7e0b-8f12-4e72d012c3f8.jpeg
       name: WeChat
     - icon: fontawesome/solid/paper-plane
-      link: mailto:2130212584@qq.com
+      link: mailto:2158363941@qq.com
       name: Email
   # analytics:
   #   provider: google
