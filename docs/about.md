@@ -8,7 +8,7 @@ icon: /fontawesome/solid/face-smile-wink
 
 ## Some Tags
 
-- 北京理工大学2024级徐特立学院本科生
+- 北京理工大学2024级徐特立学院本科生  -test01
 - ENFJ快乐小狗
 - 寻找专业ing
 - Interested in AI, Robot and ...
