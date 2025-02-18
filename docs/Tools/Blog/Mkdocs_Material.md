@@ -5,7 +5,7 @@
 
 ## 1 入门基础
 
-### 1.1 什么是 MkDocs？[[obsidian_setup]]
+### 1.1 什么是 MkDocs？
 
 MkDocs 是一个快速、简单、华丽的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，配置文件使用 YAML 格式。
 
