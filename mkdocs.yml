@@ -5,7 +5,7 @@ site_author: zl
 repo_name: zl's café
 repo_url: https://github.com/zlflly/notes/
 # edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2024 - Present <a href="https://github.com/zlflly/" target="_blank" rel="noopener">WncFht</a>
+copyright: Copyright &copy; 2024 - Present <a href="https://github.com/zlflly/" target="_blank" rel="noopener">zlflly</a>
 
 theme:
   name: material
