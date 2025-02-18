@@ -226,7 +226,6 @@ plugins:
   # - include_dir_to_nav:
   #     sort_file: true
   #     sort_directory: true
-  - toc
   - minify:
       minify_html: true
       minify_js: true
