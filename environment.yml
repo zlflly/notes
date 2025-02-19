@@ -19,4 +19,3 @@ dependencies:
       - mkdocs-minify-plugin
       - mkdocs-video
       - mkdocs-bi-directional-links
-      - mkdocs-toc-plugin
