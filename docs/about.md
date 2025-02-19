@@ -11,8 +11,7 @@ icon: /fontawesome/solid/face-smile-wink
 - 北京理工大学2024级徐特立学院本科生
 - ENFP快乐小狗
 - 犹豫专业ing
-- 每天都重新认识世界
-- Interested in AI, Robot and ...
+- Daily, the world reveals itself anew.
 - trying to use Heptabase,obsedian,dinox
 
 > [!info]- Ways to befriend with me
