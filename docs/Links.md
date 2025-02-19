@@ -19,7 +19,7 @@ comments: false
             <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/微信图片_20241003201746.jpg" alt="Wnc">
         </div>
         <div class="flink-item-name heti-skip">Wnc 的咖啡馆</div>
-        <div class="flink-item-desc">我自己！</div>
+        <div class="flink-item-desc">上交大佬！</div>
     </a>
 </div>
 

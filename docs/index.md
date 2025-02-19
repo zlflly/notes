@@ -15,7 +15,7 @@ icon: material/home
 
 <h1 style="text-align: center;">
 <span style="font-size:50px;">
-Welcome to wnc's note!
+Welcome to zl's note!
 </span>
 </h1>
 
