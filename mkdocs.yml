@@ -309,8 +309,8 @@ nav:
           - CS_Basic/CS61C/计算机组成与设计硬件软件接口.md
       - Network:
           - CS_Basic/Network/Security.md
-      - Crash Course Computer:
-        - Crash Course Computer/note.md
+      - Crash_Course_Computer:
+          - CS_Basic/Crash Course Computer/note1.md
   - AI:
       - AI/index.md
       - Basic:

@@ -24,5 +24,5 @@ comments: false
     - "Accelerated C++": C++/Accelerated C++
     - "C++ Basic": C++/C++ Basic
 - "Crash Course Computer":
-    - "计算机硬件基础"：Crash Course Computer/note.md
+    - "计算机硬件基础"：Crash_Course_Computer/note1.md
 {{ END_TOC }}
