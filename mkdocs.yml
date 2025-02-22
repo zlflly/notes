@@ -297,6 +297,8 @@ nav:
           - Summaries/Semesters/2024_1_1.md
           - Summaries/Semesters/2024summer_vacation.md
           - Summaries/Semesters/2025winter_vacation.md
+  - Crash Course Computer:
+      - Crash Course Computer/note.md
   - Computer Basic:
       - CS_Basic/index.md
       - CSAPP: CS_Basic/15-213/CSAPP.md
