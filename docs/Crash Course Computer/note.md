@@ -1,5 +1,4 @@
-# Crash Course Computer
-
+# 3-7 讲
 # 三-布尔逻辑和逻辑门
 
 - 计算机发展

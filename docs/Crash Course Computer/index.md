@@ -13,5 +13,5 @@ comments: false
 
 {{ BEGIN_TOC }}
 - "笔记3-7讲":
-    - "计算机硬件基础": note
+    - "计算机硬件基础": Crash Course Computer/note
 {{ END_TOC }}
