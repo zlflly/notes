@@ -12,7 +12,8 @@ comments: false
 
 {{ BEGIN_TOC }}
 - "CS61A":
-    - "Experience": CS61A/Exp
+    - "随堂笔记（粗）": CS61A/my note
+    - "大佬的Experience": CS61A/Exp
     - "Composing Programs": CS61A/Composing_Programs
 - "CS61C":
     - "计算机组成与设计硬件软件接口": CS61C/计算机组成与设计硬件软件接口
