@@ -87,11 +87,11 @@ None 表示什么都没有，一个没有明确返回值的函数就会返回 `N
 
 #### Pure Functions
 
-![image.png](./image.png)
+![image.png](https://cdn.jsdelivr.net/gh/zlflly/picture@main/img/61A01.png)
 
 #### Non-Pure Functions
 
-![image.png](./image.png)
+![image.png](https://cdn.jsdelivr.net/gh/zlflly/picture@main/img/61A02.png)
 
 非纯函数返回的不是一个值，而是输出发出的事情 
 
@@ -99,10 +99,10 @@ None 表示什么都没有，一个没有明确返回值的函数就会返回 `N
 
 接下来看 Demo，利用 expression trees 来表示
 
-![image.png](./image.png)
+![image.png](https://cdn.jsdelivr.net/gh/zlflly/picture@main/img/61A03.png)
 
 最后一步发生的事情：
 
-![image.png](./image.png)
+![image.png](https://cdn.jsdelivr.net/gh/zlflly/picture@main/img/61A04.png)
 
 虚线框住的 `None` 不会自动显示，Python的交互解释器在提示键入的表达式的值为 None 时不会自动显示
