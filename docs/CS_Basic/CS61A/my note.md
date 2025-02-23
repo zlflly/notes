@@ -106,3 +106,69 @@ None 表示什么都没有，一个没有明确返回值的函数就会返回 `N
 ![image.png](https://cdn.jsdelivr.net/gh/zlflly/picture@main/img/61A04.png)
 
 虚线框住的 `None` 不会自动显示，Python的交互解释器在提示键入的表达式的值为 None 时不会自动显示
+
+## Multiple Environment
+
+global frame 全局框架 = 全局定义
+
+local frame 本地框架
+
+
+
+## Miscellaneous Python Features
+
+[精准空降](https://www.bilibili.com/video/BV16J4m1u7xP?t=1155.2&p=3)
+
+```plain
+|_____ Operators
+|_____ Multiple Return Values
+|_____ Docstrings
+|_____ Doctests
+|_____ Default Arguments
+```
+
+### Operators
+
+`operator`模块属于标准库的一部分，它提供了与内置运算符对应的函数，比如加法、乘法、比较、逻辑操作等，这样可以**将运算符转换为函数式接口**，方便在需要函数的地方使用
+
+- 除法 分成 整数除法（//）和 真除法（/）
+
+   ```python
+   >>> 2013 / 10
+   201.3
+   >>> 2-13 // 10
+   201
+   ```
+
+   - 还有一种 余数 计算 (在 Operator 中 是 mod)
+
+      ```python
+      >>> 2013 % 10
+      3
+      ```
+
+- Python 的 函数可以返回多个值 `quotient` 和 `remainder` 可以由一个函数同时返回
+
+   ```python
+   >>> def divide_exact( n, d)
+           return n//d , n % d
+   >>> quotient , remainder =  divide_exact (2013, 10)
+   >>> quotient
+   201
+   >>> remainder
+   3
+   ```
+
+### Conditional Statements（条件语句）
+
+```python
+"""Return the absolute value of x."""
+if x < 0
+  return -x
+elif x==0
+  return 0
+else:
+  return x
+```
+
+条件语句当中，可以有 0 个或多个 slif 子句，然后是 0 个或 1 个 else 子句，但必须在最后
