@@ -7,9 +7,8 @@ comments: false
 ---
 
 # 友链
-
-!!! abstract
     My friends!
+
 <style>
 body {
     min-height: 100vh;
@@ -144,7 +143,9 @@ body {
             <p>卡片描述内容 1</p>
         </div>
     </a>
-    
+</div>
+
+<div class="container">
     <a href="https://example.com/link2" class="card" target="_blank">
         <img src="https://picsum.photos/101" alt="卡片图片2" class="card-image">
         <div class="content-wrapper">
@@ -152,7 +153,9 @@ body {
             <p>卡片描述内容 2</p>
         </div>
     </a>
-    
+</div>
+
+<div class="container">
     <a href="https://example.com/link3" class="card" target="_blank">
         <img src="https://picsum.photos/102" alt="卡片图片3" class="card-image">
         <div class="content-wrapper">
@@ -160,7 +163,9 @@ body {
             <p>卡片描述内容 3</p>
         </div>
     </a>
-    
+</div>
+
+<div class="container">
     <a href="https://example.com/link4" class="card" target="_blank">
         <img src="https://picsum.photos/103" alt="卡片图片4" class="card-image">
         <div class="content-wrapper">
@@ -168,4 +173,7 @@ body {
             <p>卡片描述内容 4</p>
         </div>
     </a>
+</div>
+
+
 </div>
