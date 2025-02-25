@@ -1,5 +1,5 @@
 ---
-icon: /material/BlurOnSharp
+icon: /material/book
 nostatistics: true
 comments: false
 ---
