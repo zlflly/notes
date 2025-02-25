@@ -22,7 +22,7 @@ Welcome to zl's note!
 
 <span style="display: block; text-align: center; font-size: 18px;">
 [:octicons-link-16: My friends!](./Links.md) / 
-[:octicons-info-16: About Me](./glass-cards.html)
+[:octicons-info-16: About Me](./about.md)
 <!-- [:material-chart-line: Statistics](javascript:toggle_statistics();) -->
 </span>
 
