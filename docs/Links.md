@@ -11,44 +11,48 @@ comments: false
 !!! abstract
     My friends!
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>毛玻璃效果卡片</title>
-    <link rel="stylesheet" href="glass-cards.css">
-</head>
-<body>
-    <div class="container">
-        <a href="https://example.com/link1" target="_blank" class="card">
-            <img src="https://picsum.photos/100" alt="卡片图片1" class="card-image">
-            <div class="content-wrapper">
-                <h3>卡片标题 1</h3>
-                <p>卡片描述内容 1</p>
-            </div>
-        </a>
-        <a href="https://example.com/link2" target="_blank" class="card">
-            <img src="https://picsum.photos/101" alt="卡片图片2" class="card-image">
-            <div class="content-wrapper">
-                <h3>卡片标题 2</h3>
-                <p>卡片描述内容 2</p>
-            </div>
-        </a>
-        <a href="https://example.com/link3" target="_blank" class="card">
-            <img src="https://picsum.photos/102" alt="卡片图片3" class="card-image">
-            <div class="content-wrapper">
-                <h3>卡片标题 3</h3>
-                <p>卡片描述内容 3</p>
-            </div>
-        </a>
-        <a href="https://example.com/link4" target="_blank" class="card">
-            <img src="https://picsum.photos/103" alt="卡片图片4" class="card-image">
-            <div class="content-wrapper">
-                <h3>卡片标题 4</h3>
-                <p>卡片描述内容 4</p>
-            </div>
-        </a>
-    </div>
-</body>
-</html>
+<div class="flink-list">
+
+<div class="flink-list-item">
+    <a href="https://WncFht.github.io/" title="Wnc's Notebook" target="_blank">
+        <div class="flink-item-icon">
+            <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/微信图片_20241003201746.jpg" alt="Wnc">
+        </div>
+        <div class="flink-item-name heti-skip">Wnc 的咖啡馆</div>
+        <div class="flink-item-desc">上交大佬！</div>
+    </a>
+</div>
+
+<div class="flink-list-item">
+    <a href="http://donotknowsjtu.top" title="donotknow" target="_blank">
+        <div class="flink-item-icon">
+            <img src="https://raw.githubusercontent.com/WncFht/picture/main/picture/logo.gif" alt="donotknow">
+        </div>
+        <div class="flink-item-name heti-skip">donotknow</div>
+        <div class="flink-item-desc">DoNotKnow</div>
+    </a>
+</div>
+
+
+<div class="flink-list-item">
+    <a href="https://kinnariyamamatanha.github.io/" title="Kinaari" target="_blank">
+        <div class="flink-item-icon">
+            <img src="https://raw.githubusercontent.com/KinnariyaMamaTanha/KinnariyaMamaTanha.github.io/refs/heads/main/overrides/img/avatar1.png" alt="Kinnari">
+        </div>
+        <div class="flink-item-name heti-skip">Kinnari</div>
+        <div class="flink-item-desc">很厉害的学长！</div>
+    </a>
+</div>
+
+<div class="flink-list-item">
+    <a href="https://microgrey.github.io/" title="MenGrey" target="_blank">
+        <div class="flink-item-icon">
+            <img src="https://raw.githubusercontent.com/WncFht/picture/main/8482f0d42ffc1f9191105bab02ca82e.jpg" alt="MenGrey">
+        </div>
+        <div class="flink-item-name heti-skip">MenGrey</div>
+        <div class="flink-item-desc">很厉害的同学！</div>
+    </a>
+</div>
+
+
+</div>
