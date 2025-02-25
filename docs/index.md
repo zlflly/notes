@@ -21,7 +21,7 @@ Welcome to zl's house!
 
 
 <span style="display: block; text-align: center; font-size: 18px;">
-[:octicons-link-16: My friends!](./Links.md)
+[:octicons-link-16: My friends!](./glass-cards.md)
 [:octicons-info-16: About Me](./about.md)
 <!-- [:material-chart-line: Statistics](javascript:toggle_statistics();) -->
 </span>
