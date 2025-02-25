@@ -47,7 +47,7 @@ theme:
 
   font: false
 
-  favicon: ![我的头像！](https://cdn.jsdelivr.net/gh/zlflly/picture@main/img/IMG_20230725_133833.jpg)
+  favicon: assets/images/myself.jpg
 
   palette: #导航栏
     - media: "(prefers-color-scheme)"
