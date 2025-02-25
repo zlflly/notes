@@ -7,9 +7,8 @@ comments: false
 ---
 
 # 友链
-
-!!! abstract
     My friends!
+
 <style>
 body {
     min-height: 100vh;
@@ -24,22 +23,22 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    padding: 3rem 1rem;
+    gap: 30px;
+    padding: 60px 20px;
     margin: 2rem auto;
-    max-width: var(--md-container-width);
+    max-width: 1200px;
     perspective: 1000px;
 }
 
 .card {
     position: relative;
-    width: 280px;
-    height: 320px;
-    margin: 0;
+    width: 220px;
+    height: 280px;
+    margin: 0 -15px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 20px;
-    padding: 2rem 1.5rem;
+    padding: 35px 20px 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -96,13 +95,13 @@ body {
 }
 
 .card-image {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid rgba(255, 255, 255, 0.2);
     padding: 4px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 25px;
     background: rgba(255, 255, 255, 0.05);
     transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
@@ -118,14 +117,14 @@ body {
 }
 
 .card h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.5rem;
+    margin: 0 0 5px 0;
+    font-size: 1.4rem;
     color: white;
 }
 
 .card p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.95rem;
     opacity: 0.8;
     line-height: 1.4;
     color: white;
@@ -133,31 +132,6 @@ body {
 
 [data-md-color-scheme="default"] .card {
     color: white !important;
-}
-
-/* 添加媒体查询以适应不同屏幕尺寸 */
-@media (max-width: 1024px) {
-    .container {
-        gap: 1.5rem;
-        padding: 2rem var(--md-container-padding);
-    }
-    
-    .card {
-        width: 260px;
-        height: 300px;
-    }
-}
-
-@media (max-width: 768px) {
-    .card {
-        width: 240px;
-        height: 280px;
-    }
-    
-    .card-image {
-        width: 100px;
-        height: 100px;
-    }
 }
 </style>
 
@@ -200,7 +174,6 @@ body {
         </div>
     </a>
 </div>
-
 
 
 </div>
