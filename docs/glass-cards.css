@@ -51,30 +51,18 @@ body {
 }
 
 .card:nth-child(1) {
-    background: linear-gradient(135deg, rgba(255, 89, 89, 0.35), rgba(240, 50, 90, 0.35));
-    border-color: rgba(255, 89, 89, 0.5);
-    box-shadow: 0 4px 20px rgba(255, 89, 89, 0.2);
     transform: translateY(40px) rotate(-8deg);
 }
 
 .card:nth-child(2) {
-    background: linear-gradient(135deg, rgba(89, 139, 255, 0.35), rgba(89, 89, 255, 0.35));
-    border-color: rgba(89, 139, 255, 0.5);
-    box-shadow: 0 4px 20px rgba(89, 139, 255, 0.2);
     transform: translateY(15px) rotate(-3deg);
 }
 
 .card:nth-child(3) {
-    background: linear-gradient(135deg, rgba(89, 255, 150, 0.35), rgba(89, 255, 89, 0.35));
-    border-color: rgba(89, 255, 150, 0.5);
-    box-shadow: 0 4px 20px rgba(89, 255, 150, 0.2);
     transform: translateY(15px) rotate(3deg);
 }
 
 .card:nth-child(4) {
-    background: linear-gradient(135deg, rgba(255, 189, 89, 0.35), rgba(255, 150, 89, 0.35));
-    border-color: rgba(255, 189, 89, 0.5);
-    box-shadow: 0 4px 20px rgba(255, 189, 89, 0.2);
     transform: translateY(40px) rotate(8deg);
 }
 
@@ -95,24 +83,12 @@ body {
     border-color: rgba(255, 255, 255, 0.4);
 }
 
-.card:nth-child(1):hover {
-    background: linear-gradient(135deg, rgba(255, 89, 89, 0.45), rgba(240, 50, 90, 0.45));
-    box-shadow: 0 8px 32px rgba(255, 89, 89, 0.3);
-}
-
-.card:nth-child(2):hover {
-    background: linear-gradient(135deg, rgba(89, 139, 255, 0.45), rgba(89, 89, 255, 0.45));
-    box-shadow: 0 8px 32px rgba(89, 139, 255, 0.3);
-}
-
-.card:nth-child(3):hover {
-    background: linear-gradient(135deg, rgba(89, 255, 150, 0.45), rgba(89, 255, 89, 0.45));
-    box-shadow: 0 8px 32px rgba(89, 255, 150, 0.3);
-}
-
+.card:nth-child(1):hover,
+.card:nth-child(2):hover,
+.card:nth-child(3):hover,
 .card:nth-child(4):hover {
-    background: linear-gradient(135deg, rgba(255, 189, 89, 0.45), rgba(255, 150, 89, 0.45));
-    box-shadow: 0 8px 32px rgba(255, 189, 89, 0.3);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .card h3 {
@@ -142,4 +118,24 @@ body {
 .content-wrapper {
     margin-top: auto;
     padding-bottom: 10px;
+}
+
+.nav-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
 }
