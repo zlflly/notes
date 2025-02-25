@@ -184,6 +184,7 @@ extra_css:
   - css/extra.css
   - css/fold_toc.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - css/glass-cards.css
 
 extra_javascript:
   - js/katex.js
