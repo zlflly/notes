@@ -184,7 +184,7 @@ extra_css:
   - css/extra.css
   - css/fold_toc.css
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-  - assets/stylesheets/cards.css
+
 
 extra_javascript:
   - js/katex.js
@@ -253,9 +253,7 @@ plugins:
       enable_creation_date: true
       exclude:
         - index.md
-  - macros:
-      modules:
-        - docs/scripts/recommend.py
+
 
 not_in_nav: Links.md
 
