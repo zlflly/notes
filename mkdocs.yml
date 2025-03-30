@@ -273,21 +273,10 @@ nav:
       - Summaries/index.md
       - Weekly:
           - 2024:
-              - Summaries/2024/weekly/2024-W44-10.md
-              - Summaries/2024/weekly/2024-W45-11.md
-              - Summaries/2024/weekly/2024-W46-11.md
-              - Summaries/2024/weekly/2024-W47-11.md
-              - Summaries/2024/weekly/2024-W48-11.md
-              - Summaries/2024/weekly/2024-W49-12.md
-              - Summaries/2024/weekly/2024-W50-12.md
-              - Summaries/2024/weekly/2024-W51-12.md
-              - Summaries/2024/weekly/2024-W52-12.md
+              
           - 2025:
-              - Summaries/2025/weekly/2025-W01-12.md
-              - Summaries/2025/weekly/2025-W02-01.md
-              - Summaries/2025/weekly/2025-W03-01.md
-              - Summaries/2025/weekly/2025-W04-01.md
-              - Summaries/2025/weekly/2025-W05-01.md
+              - Summaries/2025/weekly/2005-07.md
+              - Summaries/2025/weekly/2005-08.md
       - Semesters:
           - Summaries/Semesters/202409-10.md
           - Summaries/Semesters/2024_1_1.md
