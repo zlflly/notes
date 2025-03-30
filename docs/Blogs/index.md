@@ -14,7 +14,7 @@ comments: false
 
 {{ BEGIN_TOC }}
 - "配置过程":
-    - 配置Github的本地仓库 : posts/同步本地仓库到github.md
+    - 配置Github的本地仓库 : posts/同步本地仓库到github
 - "卡片样式网页":
     - 代码及说明 : glass-cards
 {{ END_TOC }}
