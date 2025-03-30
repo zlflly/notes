@@ -13,8 +13,8 @@ comments: false
 ## Selected Blogs
 
 {{ BEGIN_TOC }}
-- "论文笔记":
-    - ULIP-2 : posts/ULIP-2
+- "配置过程":
+    - 配置Github的本地仓库 : posts\同步本地仓库到github.md
 - "卡片样式网页":
     - 代码及说明 : glass-cards
 {{ END_TOC }}

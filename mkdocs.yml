@@ -267,15 +267,7 @@ nav:
           - Blogs/archives.md
           - Blogs/glass-cards.md
       - Posts:
-          - Blogs/posts/24-12-29.md
-          - Blogs/posts/24-12-30.md
-          - Blogs/posts/25-01-20.md
-          - Blogs/posts/FreeSplatter 代码解读.md
-          - Blogs/posts/Gaussian_Splatting_Code.md
-          - Blogs/posts/Gaussian_Splatting_复现.md
-          - Blogs/posts/OCRN.md
-          - Blogs/posts/ULIP-2.md
-          - Blogs/posts/用AI后的问题.md
+          - Blogs/posts/同步本地仓库到github.md
           - Blogs/posts/notes_software.md
   - Summaries:
       - Summaries/index.md
