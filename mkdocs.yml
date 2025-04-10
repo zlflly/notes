@@ -269,6 +269,7 @@ nav:
       - Posts:
           - Blogs/posts/同步本地仓库到github.md
           - Blogs/posts/notes_software.md
+          - Blogs/posts/配置R到vscode.md
   - Summaries:
       - Summaries/index.md
       - Weekly:
