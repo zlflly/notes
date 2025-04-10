@@ -2,7 +2,7 @@
   function register($toc) {
     const currentInView = new Set();
     const headingToMenu = new Map();
-    const $menus = Array.from($toc.querySelectorAll('.md-nav__list > li > a'));
+    const $menus = Array.from($toc.querySelectorAll('.md-nav__list li a'));
 
     for (const $menu of $menus) {
       const elementId = $menu.getAttribute('href').trim().slice(1);
