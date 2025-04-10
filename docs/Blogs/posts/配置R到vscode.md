@@ -185,7 +185,8 @@ barplot(h,
 
 ## 报错的解决：
 
-1. ```powershell
+1. VScode无法运行R程序
+```powershell
    
    PS D:\User\Desktop\CS61A> Rscript "d:\User\Desktop\CS61A\first.R" 
    Rscript : 无法将“Rscript”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。 
@@ -193,7 +194,7 @@ barplot(h,
    + Rscript "d:\User\Desktop\CS61A\first.R" 
    + ~~~~~~~ + CategoryInfo : ObjectNotFound: (Rscript:String) [], CommandNotFoundException + FullyQualifiedErrorId : CommandNotFoundException
    
-   ```
+```
 
 **解决办法：**
 
@@ -226,12 +227,13 @@ barplot(h,
    如果显示版本号（如 `R scripting front-end version 4.3.1`），则配置成功。
 
 
-2. ```powershell
+2. 运行R脚本时镜像未设置
+```powershell
    PS D:\User\Desktop\CS61A> Rscript "d:\User\Desktop\CS61A\first.R"
    错误于contrib.url(repos, "source"): 试试在不设定镜像的情况下用CRAN
    Calls: install.packages -> contrib.url
    停止执行
-   ```
+```
 
 **解决办法：**
 
