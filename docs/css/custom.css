@@ -309,7 +309,8 @@ input#mkdocs-content-password {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.home-page .home-links a {
+.home-page .home-links a,
+.home-page .home-link-btn {
     color: #fff;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -318,12 +319,15 @@ input#mkdocs-content-password {
     background: rgba(255, 255, 255, 0.1);
     margin: 0 0.5rem;
     display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.home-page .home-links a:hover {
+.home-page .home-links a:hover,
+.home-page .home-link-btn:hover {
     background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
 }
 
 /* 确保主页内容在背景之上 */
@@ -347,8 +351,11 @@ input#mkdocs-content-password {
         font-size: 16px;
     }
     
-    .home-page .home-links a {
+    .home-page .home-links a,
+    .home-page .home-link-btn {
         margin: 0.25rem;
         padding: 0.4rem 0.8rem;
+        display: block;
+        margin-bottom: 0.5rem;
     }
 }
