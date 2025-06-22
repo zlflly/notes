@@ -138,4 +138,4 @@ void main() {
 	col+=render(p,rd);
 	col+=1.-min((time-.2)*.8,1.);
 	O=vec4(col,1);
-}
+} 
