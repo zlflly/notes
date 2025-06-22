@@ -98,7 +98,7 @@ body {
                 </svg>
                 My friends!
             </a>
-            <a href="./about.md" class="home-link-btn">
+            <a href="./about.html" class="home-link-btn">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" style="margin-right: 8px; vertical-align: middle;">
                     <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM6.5 7.75A.75.75 0 0 1 7.25 8a1.25 1.25 0 1 0 2.5 0 .75.75 0 0 1 1.5 0 2.75 2.75 0 0 1-5.5 0zM12 6.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM5 6.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
                 </svg>
