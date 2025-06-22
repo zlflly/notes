@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - zl's house</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: "JetBrainsMono Nerd Font", "LXGW WenKai Screen", Arial, sans-serif;
+            background: #161616;
+            color: rgba(255,255,255,0.9);
+        }
+        
+        #background-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+        
+        .about-content {
+            position: relative;
+            z-index: 2;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+        
+        .about-content h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .about-content h2 {
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .about-content p {
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .about-content ul {
+            color: #fff;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .about-content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .about-content blockquote {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid rgba(255, 255, 255, 0.3);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .nav-button {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            z-index: 10;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .nav-button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 0.5rem;
+        }
+        
+        .info-box {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .info-box::before {
+            content: "ℹ️ ";
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- p5.js 库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    
+    <!-- 背景效果脚本 -->
+    <script src="js/background.js"></script>
+    
+    <a href="index.md" class="nav-button">← 返回主页</a>
+    
+    <div class="about-content">
+        <h1><span class="emoji">🥳</span>About</h1>
+        
+        <p><strong>Hello! How do you do? i'm Zl</strong></p>
+        
+        <h2>Some Tags</h2>
+        
+        <ul>
+            <li>北京理工大学2024级徐特立学院本科生</li>
+            <li>ENFP快乐小狗</li>
+            <li>犹豫专业ing</li>
+            <li>Daily, the world reveals itself anew.</li>
+            <li>trying to use Heptabase, obsidian, dinox</li>
+        </ul>
+        
+        <div class="info-box">
+            <strong>Ways to befriend with me</strong><br>
+            You could find my email or qq or WeChat in the icon above.<br>
+            Feel free to contact me!
+        </div>
+    </div>
+</body>
+</html> 
